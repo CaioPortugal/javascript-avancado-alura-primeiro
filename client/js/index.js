@@ -1,3 +1,4 @@
+
 var campos = 
 [
     document.querySelector('#data'),
@@ -30,3 +31,4 @@ var limparFormulario = function(){
     campos[2].value = 0;
     document.querySelector('#data').focus();
 }
+

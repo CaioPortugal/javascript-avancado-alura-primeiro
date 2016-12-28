@@ -1,8 +1,10 @@
+
 var campos = 
 [
     document.querySelector('#data'),
     document.querySelector('#quantidade'),
     document.querySelector('#valor'),
+
 ];
 
 var tableBody = document.querySelector('table tbody');
@@ -14,6 +16,7 @@ document.querySelector('.form').addEventListener('submit',function(event){
         tableData.textContent = campo.value;
         tableRow.appendChild(tableData);
     });
+
     var tableDataVolume = document.createElement('td');
     var volume = campos[1].value * campos[2].value;
     tableDataVolume.textContent = volume;
@@ -28,3 +31,4 @@ var limparFormulario = function(){
     campos[2].value = 0;
     document.querySelector('#data').focus();
 }
+

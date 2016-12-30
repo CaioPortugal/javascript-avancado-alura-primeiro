@@ -30,5 +30,7 @@ var limparFormulario = function(){
     campos[1].value = 0;
     campos[2].value = 0;
     document.querySelector('#data').focus();
+
+    
 }
 
